@@ -12,17 +12,21 @@ function func(number) {
   	var roman = ['M', 'CM' ,'D' ,'CD' ,'C' ,'XC' ,'L' ,'XL' ,'X' ,'IX' ,'V' ,'IV' ,'I'];
   	var result = '';
   	for (var i in int) {
+  		console.log(int[i])
   		// Loop in all the elements in the int array.
   		while (number%int[i] < number) {   
   		// Keep trying the same number until we move to a smaller one.
   		result += roman[i];
+  		console.log(result)
   		// console.log(result)
   		// Adding the match roman number to the result string.
       	number -= int[i];
+      	console.log(number)
       	// Subtract the int value.
   		}
   	}
   	return result;
+  	console.log('result', result)
 }
 
 // This is the result.
