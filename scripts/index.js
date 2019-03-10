@@ -5,3 +5,8 @@
 // Int 23 (10+10+3) Rom XXIII
 // Int 36 (10+10+10+5+1) XXXVI
 // Int 999 = (1000-100)+(100-10)+(10-1) = (M-C)+(C-X)+(X-I) = CM+XC+IX = CMXCIX
+function func(number) {
+
+}
+
+document.write(func(36));
